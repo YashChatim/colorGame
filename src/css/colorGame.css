@@ -1,0 +1,67 @@
+body {
+	background: lightpink;
+	margin: 0;
+	font-family: arial;
+	text-transform: uppercase;
+}
+
+.square {
+	width: 30%;
+	background: white;
+	padding-bottom: 20%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15px 50px;
+	transition: background 1s;
+}
+
+#sqContainer {
+	margin: 10px auto;
+	max-width: 750px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	background-color: lightblue;
+	margin: 0;
+	line-height: 1.1;
+	padding: 10px 0;
+}
+
+#dispColor {
+	font-size: 300%;
+}
+
+#stripe {
+	background: white;
+	height: 25px;
+	text-align: center;
+	color: grey;
+}
+
+.selected {
+	color: white;
+	background: lightblue;
+}
+
+button {
+	color: lightblue;
+	background: none;
+	border: none;
+	height: 100%;
+	font-weight: 600;
+	letter-spacing: 1.1px;
+	transition: all 1s;
+}
+
+button:hover {
+	color: white;
+	background: lightblue;
+
+}
+
+#msg {
+	display: inline-block;
+	width: 15%;
+}
